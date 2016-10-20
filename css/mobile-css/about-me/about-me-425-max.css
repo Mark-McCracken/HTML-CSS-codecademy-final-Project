@@ -1,0 +1,321 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-size: cover;
+}
+
+.container-fluid {
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+#header {
+	border: none;
+	position: fixed;
+	background-color: rgba(251, 248, 220, 1);
+	z-index: 1;
+}
+
+
+#header .container-fluid {
+	background-color: rgba(251, 248, 220, 1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0;
+	border-bottom: 10px solid rgba(231, 228, 200, 0.3);
+}
+
+#header .row {
+	padding: 20px;
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+}
+
+#header h3 {
+	margin-top: 0;
+	text-align: left;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header .container-fluid .row {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding-top: 20px;
+}
+
+#header li:nth-child(3) {
+	margin-right:0;
+	padding-right:0;
+}
+
+
+.container-fluid {
+	width: 100%;
+	display: inline-block;
+}
+
+#header, .footer {
+	border: none;
+}
+
+
+
+
+
+#header h3 span:hover {
+	cursor: pointer;
+	border-bottom: 2px solid black;
+	color: tomato;
+}
+
+#header h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#navigate {
+	position: absolute;
+	right: 20px;
+}
+#navigateul {
+	position: absolute;
+	right: 0;
+}
+
+li {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	margin-left: 15px;
+	border-radius: 6px;
+}
+
+li a {
+	color: tomato;
+	font-weight: bold;
+}
+
+#header .btn {
+	border: 1px solid tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+	font-weight: bold;
+}
+
+#header .btn:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+}
+
+#header li a span:hover {
+	color: rgba(251, 248, 220, 1);
+}
+
+#active {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+}
+
+#active:hover {
+	cursor: default;
+}
+
+
+
+.main #break, .main #showcase {
+	border-bottom: 5px solid rgba(231, 228, 200, 1);
+	padding-bottom: 25px;
+}
+
+
+.main #where-im-from {
+	margin-top: 80px;
+}
+
+.main h2 {
+	color: tomato;
+	font-family: 'Passion One', sans-serif;
+}
+
+
+.main #where-im-from #formal {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.main #break {
+	border-bottom: 5px solid rgba(231, 228, 200, 1);
+}
+
+.main #where-im-from img {
+	max-height: 300px;
+	width: 100%;
+	height: auto;
+}
+
+#navigate li {
+	width: device-width;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#uni-img-row {
+	display: block;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.main #went-to-uni #boys {
+	padding-left: 20px;
+}
+
+
+.main #went-to-uni #suki, #grad-ball, #whole-crew, #rowing-1, #boys, #rowing-2 {
+	max-height: 250px;
+	max-width: 100%;
+	width: auto;
+	height: 250px;
+}
+
+#went-to-uni img {
+	padding-top: 10px;
+	border-radius: 25px;
+}
+
+
+.main #became-a-teacher #showcase {
+	display: block;
+	margin: 0 auto;
+}
+
+
+.main #became-a-teacher img, #became-a-teacher video  {
+	height: 200px;
+	max-width: 100%;
+	text-align: center;
+	display: block;
+	width: auto;
+}
+
+#marking {
+	margin-left: 70px;
+}
+#mo {
+	margin-left: 55px;
+}
+
+
+
+
+
+
+.main #learned-to-code img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 25px;
+}
+
+#iOS, #scripting {
+	padding-top: 20px;
+}
+
+
+
+
+
+#have-fun img {
+	max-height: 180px;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+#gsys {
+	margin-top: 20px;
+}
+
+#train {
+	margin-top: 12px;
+}
+
+/* Final  */
+.welc {
+	text-align: center;
+	margin-top: 60px;
+	color: tomato;
+	font-family: 'Passion One', sans-serif;
+	margin-bottom: 40px;
+}
+
+.welc2 {
+	text-align: center;
+	color: tomato;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+}
+
+.welc2 a, #return {
+	border: 1px solid tomato;
+	padding: 10px 20px;
+	margin: 0 160px; 
+	border-radius: 50px;
+	color: tomato;
+	text-decoration: none;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}
+
+welc2 a:hover, #return:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	text-decoration: none;
+	text-align: center;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}
+
+#final p a {
+	max-width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#final #wider {
+	max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+

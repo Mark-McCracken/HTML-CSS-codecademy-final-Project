@@ -1,0 +1,156 @@
+html, body {
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 928px;
+	margin: 0 auto;
+}
+
+h1, h2, p, a {
+	font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+}
+
+h1	{
+	font-size: 64px;
+	font-weight: 100;
+	margin-bottom: 20px;
+	top: 0;
+}
+
+.main {
+	background: url("Resources/intro.jpg") no-repeat /*center center*/;
+	background-size: cover;
+	height: 450px;
+	padding-top: 100px;
+}
+.main .continer {
+	top: 150px;
+	margin: 100 auto;
+	width: 928px;
+}
+
+.main h1 {
+	text-align: left;
+	margin-top: 0;
+}
+
+.main p {
+	padding: 20px 0 20px 0;
+	font-size: 30px;
+}
+
+.main .btn {
+	padding: 8px 30px;
+	border-radius: 4px;
+	background-color: rgba(238,68,95,0.8);
+	text-decoration: none;
+	color: white;
+	font-size: 18px;/*
+	transition: box-shadow .5s;
+	transition: border-radius .5s;*/
+}
+
+.main .btn:hover {
+	background-color: rgba(238,68,95,1);
+	box-shadow:0px 1px 6px rgba(0,0,0,0.6);
+	border-radius: 50px;
+	transition: box-shadow .5s;
+	transition: border-radius .5s;
+}
+
+.share, .save {
+	height: 450px;
+	/*border: 1px solid black;*/		/*  Use this to see edges of div  */
+	border-bottom: 0.5px solid gray;
+}
+
+.share .text, .save .text {
+	margin-top: 60px;
+	float: right;
+	width: 65%;
+}
+
+.share p, .save p {
+	font-size: 30px;
+}
+
+.share img, .save img {
+	float: left;
+	width: 20%;
+	padding-top: 40px;
+}
+
+
+.explore {
+	height: 450px;
+	border-bottom: 0.5px solid gray;
+}
+
+.explore .text {
+	margin-top: 60px;
+	float: left;
+	width: 65%
+}
+
+.explore img {
+	float: right;
+	width: 20%;
+	padding-top: 40px;
+}
+
+.explore p {
+	font-size: 30px;
+}
+
+.download {
+	height: 300px;
+}
+
+.download h2 {
+	padding-top: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 200;
+	font-size: 35px; 
+}
+
+.download .img_contain {
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 45px;
+}
+
+.img_contain img {
+	float: left;
+	width: 45%;
+	padding: 10px;
+}
+
+
+
+.footer {
+	background-color: #f3f3f3;
+	height: 200px;
+}
+
+.list {
+	width: 25%;
+	float: left;
+}
+
+.list .header {
+	padding: 15px 0;
+	color: black;
+	font: 400 1.2em 'Open Sans',arial,sans-serif;
+}
+
+.list ul {
+	list-style-type: none;
+}
+
+.list li {
+	color: gray;
+	font: 600 1em 'Open Sans',arial,sans-serif;
+}

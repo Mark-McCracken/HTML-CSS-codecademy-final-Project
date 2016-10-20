@@ -1,0 +1,166 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	border: none;
+	padding:10px;
+	background-color: rgba(0,0,0,0);
+}
+
+#header  .container {
+	width: 70%;
+	background-color: rgba(0,0,0,0);
+}
+
+#header .container .row {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding-top: 20px;
+}
+
+#header li:nth-child(3) {
+	margin-right:0;
+	padding-right:0;
+}
+
+#header .row .col-md-7 a {
+	font-weight: default;	
+}
+
+#header h3 {
+	margin-top: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header h3 span:hover {
+	cursor: pointer;
+	border-bottom: 2px solid black;
+	color: tomato;
+}
+
+#header h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+#header li {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	margin-left: 15px;
+	border-radius: 6px;
+}
+
+#header li a {
+	color: tomato;
+	font-weight: bold;
+}
+
+#header li a span:hover {
+	color: rgba(251, 248, 220, 1);
+}
+
+#header .btn {
+	border: 1px solid tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+	font-weight: bold;
+}
+
+#header .btn:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+}
+
+
+#doe img {
+	max-width: 300px;
+	max-height: 250px;
+	width: auto;
+	height: auto;
+}
+
+img {
+	max-width: 300px;
+	max-height: 400px;
+	width: auto;
+	height: auto;
+}
+
+.container > .row {
+	padding: 10px;
+}
+
+#maths-challenge, #graduated, #keyboard, #margi {
+	background-color: rgba(231, 228, 200, 1);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#graduated img {
+	max-width: 100%;
+}
+
+#other-sites {
+	margin: 30px 0;
+}
+#donut {
+	text-align: center;
+	padding: 15px;
+}
+
+.main h1, .main h3, .main h2 {
+	font-family: 'Passion One', sans-serif;
+	color: tomato;
+}
+
+#margi h2 {
+	margin-top: 30px;
+}
+#margi p {
+	margin-top: 70px;
+}
+#margi img {
+	border-radius: 17px;
+}
+
+#keyboard h3, #keyboard p, #keyboard h4 {
+	text-align: center;
+}
+#keyboard h3 {
+	margin-top: 30px;
+}
+
+
+.welc2 {
+	text-align: center;
+	color: tomato;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+}
+
+.welc2 a, #return {
+	border: 1px solid tomato;
+	padding: 10px 20px;
+	margin: 0 160px; 
+	border-radius: 50px;
+	color: tomato;
+	text-decoration: none;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}
+
+welc2 a:hover, #return:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	text-decoration: none;
+	text-align: center;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}

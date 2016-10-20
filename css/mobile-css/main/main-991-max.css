@@ -1,0 +1,118 @@
+html, body {
+	margin: 0;
+	padding: 0;/*rgba(251, 248, 220, 1);*/
+}
+
+body {
+	background: url("../../../pictures/main-bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.container-fluid {
+	width: 100%;
+	display: inline-block;
+}
+
+#header, .footer {
+	border: none;
+}
+
+#navigate {
+	position: absolute;
+	right: 20px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#navigateul {
+	position: absolute;
+	right: 0;
+}
+
+/*
+#header .container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0;
+}*/
+
+#header .row {
+	width: 100%;
+}
+
+
+.showoff {
+	color: tomato;
+	font-family: 'Passion One', Garamond;
+	padding: 200px 0 450px 0;
+	margin: 0;
+	margin-left: 50%;
+	font-size: 50px;
+}
+
+
+.col-sm-12, .col-xs-12 {
+	width: 100%;
+}
+
+ul .nav-pills {
+    text-align: right;
+}
+
+.nav-pills li {
+    float: none;
+    display: inline-block;
+}
+
+.nav-pills ul {
+	margin: 0 auto;	
+	text-align: center;
+	
+}
+
+
+
+
+#name {
+	text-align: center;
+}
+
+.footer .container-fluid {
+	width: 100%;
+}
+
+.footer .row {
+	margin-top: 0;
+}
+
+.footer h3 {
+	margin-top: 10px;
+}
+
+.footer #bottom-col {
+	border-bottom: 2px solid white;
+	padding-bottom: 5px;
+}
+
+#facebook-holder {
+	text-align: center;
+	margin: 0 auto;
+	width: 35%;
+}
+#linkedin-holder {
+	text-align: center;
+	margin: 10px auto;
+	width: 25%;
+}
+
+.navbar-fixed-bottom {
+	position: absolute;
+}
+
+.footer {
+	position: static;
+	bottom: 0;
+}

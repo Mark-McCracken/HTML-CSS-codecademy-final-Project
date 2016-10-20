@@ -1,0 +1,162 @@
+html, body {
+	margin: 0;
+	padding: 0; /* make it the right size*/
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100; /*consistent font and font weight*/
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+
+
+.header {
+	/*background-image: url("/Users/Mark/Desktop/Programming/HTML/02_slightly_more_advanced_landing_page/Resources/bg.jpg");*/
+	/*background-size: 100%;
+	height: 1050px;
+	top:180px;*/
+	/*This is not the best practice, should use syntax below:
+	background: url(<url-to-image>);
+	  */
+	background: url("Resources/bg.jpg") no-repeat center center;
+	/*no-repeat: stops image repeating over and over. Center center presumably centers it perfectly.*/
+	background-size: cover;
+	height: 800px;
+	text-align: center;
+}
+.header .container {
+	position: relative;
+	top: 200px;					/*text-align: center;*/		/*  already done above  */
+}
+
+
+.header h1 {
+	color: #fff;
+	line-height: 100px;
+	font-size: 80px;
+	margin-top: 0;   /* dont forget we need this.*/
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	/*font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 600;*/
+	/*  don't need any of this as we have already specified text details in body at top  */
+}
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}			/*  for devices of  given size, we can create different rules.  */
+.header p {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+/* .header a {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	border: 2px solid black;
+	background-color: black;
+	padding: 10px 30px;
+	margin: auto;
+	font-weight: 100;
+} */        /*  don't need any of this, all given above  */
+.btn {
+	color: #fff;
+	background: #000;
+	padding: 10px 40px;
+	text-decoration: none;
+	transition: background .5s
+}
+
+.nav {
+	background: #000;
+	height: 80px;
+	width: 100%;		/*margin-top: 0;*/		/*max-width: 940px;		margin: 0 auto;		padding: 0 10px;*/			/*  don't need this, want it to be full width  */
+}
+.nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto; /*  stops gap between each div  */
+	padding: 0;
+}
+.nav ul li {
+	color: #fff;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	list-style: none;
+	padding: 0 10px;
+	transition: background .5s;
+}
+
+.nav ul li:hover, .btn:hover {
+	background: #117bff;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+.main .container {
+	margin: 80px auto;
+}
+.main img {
+	float: left;
+	margin: 50px 80px 50px 0;	
+}
+
+
+.jumbotron {
+	background: url("Resources/jumbotron_bg.jpg") center center;
+	background-size: cover;
+	height: 600px;
+}
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+.jumbotron h2, .jumbotron p {
+	color: #fff;
+	text-align: right;
+}
+.jumbotron .btn {
+	margin: 10px 0 0;
+	float: right;
+}
+
+
+.footer {
+	background: #000;
+	height: 80px;
+}
+.footer p {
+	color: #fff;
+	font-size: 14px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0;
+}
+
+
+@media (max-width: 500px) { /*  incase the screen is too small...  */
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}

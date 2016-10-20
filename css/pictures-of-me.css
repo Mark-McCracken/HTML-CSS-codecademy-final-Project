@@ -1,0 +1,192 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: rgba(0,0,0,0);
+	border: none;
+}
+#header  .container-fluid {
+	background-color: rgba(0,0,0,0);
+}
+
+#header .container-fluid .row {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding-top: 20px;
+}
+
+#navigate {
+	position: absolute;
+	right: 20px;
+	width: 100%;
+}
+#navigateul {
+	position: absolute;
+	right: 0;
+}
+
+
+#header li:nth-child(3) {
+	margin-right:0;
+	padding-right:0;
+}
+
+#header .row .col-md-7 a {
+	font-weight: default;	
+}
+
+#header h3 {
+	margin-top: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header h3 span:hover {
+	cursor: pointer;
+	border-bottom: 2px solid black;
+	color: tomato;
+}
+
+#header h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	margin-left: 15px;
+	border-radius: 6px;
+}
+
+li a {
+	color: tomato;
+	font-weight: bold;
+}
+
+#header .btn {
+	border: 1px solid tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+	font-weight: bold;
+}
+
+#header .btn:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+}
+
+#header li a span:hover {
+	color: rgba(251, 248, 220, 1);
+}
+
+#active {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+}
+
+#active:hover {
+	cursor: default;
+}
+
+
+
+
+
+
+/* all the pictures... */
+
+.showcase h1, .showcase h4 {
+	text-align: center;
+	color: tomato;
+	font-family: 'Passion One', Garamond;
+}
+
+.showcase h1 {
+	margin-top: 60px;
+}
+
+.showcase .row {
+	padding: 10px;
+}
+
+.img_hold {
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.img_hold_2 {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#tiny-image {
+	height: 50px;
+	width: 30%;
+	padding: 0 auto;
+	overflow: hidden;
+	margin-bottom:0;
+}
+#too-big {
+	height: 220px;
+}
+
+#too-small {
+	height: 300px;
+	width: auto;
+}
+
+.showcase img {
+	margin: 8px;
+	width: 100%;
+	height: auto;
+}
+
+.comment {
+	padding-top: 100px;
+}
+
+#oh-hay {
+	margin-top: 40px;
+}
+
+.welc {
+	text-align: center;
+	margin-top: 100px;
+	color: tomato;
+	font-family: 'Passion One', sans-serif;
+	margin-bottom: 40px;
+}
+
+.welc2 {
+	text-align: center;
+	color: tomato;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+}
+
+.welc2 a, #return {
+	border: 1px solid tomato;
+	padding: 10px 20px;
+	margin: 0 160px; 
+	border-radius: 50px;
+	color: tomato;
+	text-decoration: none;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}
+
+welc2 a:hover, #return:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	text-decoration: none;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}

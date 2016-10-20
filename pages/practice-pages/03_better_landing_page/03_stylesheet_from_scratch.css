@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v10/qpy-UiLNKP-VfOdbcs6r6-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+/* fonts above*/
+
+
+
+
+
+
+
+
+html, body {
+	margin: 0 auto; 	/*  auto necessary?  */
+	padding: 0; 		/*  padding necessary?  */
+}
+
+
+h1, h2, a {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+p {
+	font-family: Helvetica, Arial, sans-serif;
+ 	color: white;
+}
+.container {
+max-width: 940px;
+margin: 0 auto;
+}
+
+
+
+.main {
+	background: url("Resources/bg.jpg") no-repeat center center;
+	background-size: cover;		/*  top: 150px;    */	/*  Wrong place, need container  */
+	height: 600px; 				/*  color: white;  */   /*  color of a class?  */
+	text-align: center;
+}
+
+.main .back {
+	text-align: left;
+	padding: 20px 10px;
+}
+
+.main #back {
+	text-decoration: none;
+	color: orange;
+	background-color: #1c1c1c;
+	border-radius: 5px;
+	padding: 10px 20px;
+	transition: color .5s;
+	transition: background-color .5s;
+}
+
+.main #back:hover {
+	text-decoration: none;
+	background-color: orange;
+	color: #1c1c1c;
+	transition: color .5s;
+	transition: background-color .5s;
+}
+
+
+.main .container {
+	position: relative;
+	top: 100px;
+}
+
+.main h1 {
+	color: #fff;
+	margin: 0;
+	font-size: 150px;
+}
+
+.main p {
+	color: #fff
+	margin: 0 0 20px 0;
+	font-size: 18px;
+}
+/*
+.supporting {
+	background-color: black;
+	height: 315px;
+	text-align: center;
+}
+*/
+.supporting {
+	background-color: #1c1c1c;
+	height: 200px;
+	text-align: center;
+	padding: 50px 0 80px;
+}
+.supporting h2 {
+	color: orange;
+	font-size: 50px;
+}
+.supporting p {
+	color: white;
+	text-align: center;
+}
+
+.supporting .container {
+	margin: 0 auto;
+	max-width: 940px;
+	top: 50px;
+}
+
+.col {
+	float: left;
+	width: 28%;
+	padding: 10px;
+}
+
+.supporting h2 {
+color: #ffa800;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+
+.supporting p {
+color: #efefef;
+margin-bottom: 20px;
+line-height: 20px;
+font-size: 12px;
+}
+
+
+
+.btn {
+	background-color: #1c1c1c;
+	padding: 8px 30px;
+	font-size: 18px;
+	/*margin: 10px auto;*/
+	color: #fff;
+	text-transform: uppercase;
+}
+.btn:hover{
+	background-color: orange;
+	color: black;
+	cursor: pointer;
+	transition: background .5s;
+	transition: color .5s;
+}
+
+.feature {
+	background: url("Resources/feature.jpg") no-repeat center center;
+	background-size: cover;
+	top: 150px;
+	height: 600px;
+}
+.feature h1 {
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+}
+.feature .container {
+	position: relative;
+	top: 300px;
+}
+
+
+.supporting {
+background-color: #1c1c1c;
+text-align: center;
+padding: 50px 0 80px;
+}
+
+.supporting .container {
+	position: relative;
+	top: 50px;
+}
+.supporting h1, .supporting p, .supporting a {
+	text-align: center;
+	padding-bottom: 15px;
+}
+.supporting .container h1 {
+	color: orange;
+	margin-top: 0;
+	font-size: 45px;
+}
+.supporting .btn2 {
+	margin: 20px auto;
+	background-color: white;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	color: black;
+}
+.btn2:hover {
+	background-color: orange;
+	cursor: pointer;
+}
+
+.footer {
+	background: url("Resources/footer.jpg") no-repeat center center;
+	background-size: cover;
+	height: 600px;
+}
+
+.footer .container {
+	top: 200px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footer h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 45px;
+}

@@ -1,0 +1,93 @@
+html {
+	margin: 0 auto;
+}
+
+body {
+	background: url("Resources/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	font-family: 'Merriweather', serif;
+}
+
+.container {
+	max-width: 940px;
+}
+
+/* header top bar */
+.header {
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header img {
+	height: 36px;
+	width: 36px;
+	margin: 10px 20px 10px 20px;
+}
+
+.nav {
+	display: inline-block;
+	margin-top:20px;
+}
+
+.nav li {
+	display: inline;
+	font-size: 1em;
+	color: white;
+	margin: 10px;
+	padding: 8px 2px;
+}
+
+.nav li:hover {
+	border-bottom: 1px solid #00ffbc;
+	cursor: pointer;
+	color: #00ffbc;
+}
+
+/* jumbotron */
+.jumbotron {
+	height: 220px;
+	background-color: rgba(0,0,0,0);
+}
+
+.jumbotron h1 {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	padding-top: 70px;
+	text-shadow: 	10px 	20px 	22px rgba(0,0,0,.8);
+				/* right, down, blurred, color*/
+}
+
+/* supporting */
+.supporting h3, .supporting p {
+	text-align: center;
+	color: white;
+	margin: 10px auto;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}
+
+.supporting p {
+	font-size: 1.2em;
+}
+
+/* download */
+.download {
+	position: relative;
+	top: 80px;
+	text-align: center;
+}
+
+.download a {
+	padding: 10px 60px;
+	background-color: #00ffbc;
+	border: none;
+	font-size: 1.3em;
+	color: white;
+	border-radius: 5px;
+}
+
+.download a:hover {
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+}

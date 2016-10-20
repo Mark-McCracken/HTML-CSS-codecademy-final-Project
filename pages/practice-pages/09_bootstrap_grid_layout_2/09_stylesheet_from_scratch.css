@@ -1,0 +1,112 @@
+html, body {
+	margin:0;
+	padding: 0;
+	font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+/* Header */
+.header {
+	padding: 30px 0px 80px;
+}
+
+.header h1 {
+	font-size: 20px;
+}
+
+.nav li a {
+	color: #333;
+	margin:0;
+	border:0px;  /* all touching, no border, all same color*/
+}
+
+/*
+.nav li:hover {
+	cursor: pointer;
+}
+*/
+
+/* Jumbotron  mine
+.Jumbotron h2 {
+	font-size: 50px;
+	margin-bottom: 120px;
+}
+
+.Jumbotron h2 span {
+	color: rgba(253, 193, 45, 1);
+}*/
+
+/* Jumbotron */
+.jumbotron {
+	background-color: #fff;
+}
+
+.jumbotron h2 {
+	font-size: 50px;
+	margin-bottom: 120px;
+}
+
+.jumbotron h2 span {
+	color:#ffc200;
+}
+
+.jumbotron p {
+	text-shadow: 0 0;
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 0;
+}
+
+
+
+/* Banner */
+.banner {
+	color: white;
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(60, 60, 60, 1); 
+}
+
+/* Cards */
+
+.cards {
+	background-color: rgba(253, 193, 45, 1);
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.cards h2 {
+	padding-bottom: 30px;
+}
+
+.cards img {
+	padding: 10px;
+}
+
+
+/* Footer */
+.footer {
+	padding: 60px 0px;
+	background-color: black;
+	color: white;
+}
+
+.footer h3 {
+	font-size: 20px;
+}
+
+.footer p {
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
+.footer img {
+	width: 24px;
+	margin-top:10px;
+	margin-right:10px;
+}

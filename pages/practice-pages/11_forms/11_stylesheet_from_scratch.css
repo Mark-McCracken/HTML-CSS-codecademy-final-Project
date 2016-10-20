@@ -1,0 +1,96 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: url("Resources/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.header img {
+	margin:20px auto;
+}
+
+.container {
+	max-width: 940px;
+}
+
+.header .container {
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+
+.main .container  {
+	border-bottom: 2px solid white;
+}
+
+.container img {
+	margin: 20px;
+}
+
+.main {
+	color: white;
+}
+
+.main input {
+	border-radius: 0px;
+}
+
+.main .btn {
+	background-color: rgba(44, 89, 74, 1);
+	border-radius: 0px;
+	margin-top: 25px;
+	margin-bottom: 60px;
+	font-weight: bold;
+	border-radius: 100px;
+	text-decoration: none;
+	color: white;
+}
+
+.main .btn:hover {
+	color: rgba(44, 89, 74, 1);
+	background-color: white;
+}
+
+form:first-child {
+	margin-top: 80px;
+	margin-bottom: 25px;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+.footer li {
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.footer a {
+	padding: 5px 12px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 100px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.footer a:hover {
+	color: rgba(44, 89, 74, 1);
+	background-color: white;
+	font-weight: 600;
+	padding: 4px: 11px;
+	text-decoration: none;
+	transition: background-color .5s
+}
+
+

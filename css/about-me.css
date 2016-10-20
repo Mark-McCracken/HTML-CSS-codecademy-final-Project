@@ -1,0 +1,359 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	background-size: 1000px;
+}
+
+.container-fluid {
+	max-width: 1000px;
+}
+
+
+
+
+
+
+/* Header */
+#header {
+	border: none;
+	position: fixed;
+	background-color: rgba(251, 248, 220, 1);
+	z-index: 1;
+}
+
+#header .row .col-md-7 a {
+	font-weight: default;	
+}
+
+#header .container-fluid {
+	background-color: rgba(251, 248, 220, 1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0;
+	border-bottom: 10px solid rgba(231, 228, 200, 0.3);
+}
+
+#header .container-fluid .row {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+#header h3 {
+	margin-top: 0;
+	text-align: left;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+#header h3 span:hover {
+	cursor: pointer;
+	border-bottom: 2px solid black;
+	color: tomato;
+}
+
+#header h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#header li:nth-child(3) {
+	margin-right:0;
+	padding-right:0;
+}
+
+
+#header li {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	margin-left: 15px;
+	border-radius: 6px;
+}
+
+#header li a {
+	color: tomato;
+	font-weight: bold;
+}
+
+#header .btn {
+	border: 1px solid tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+	font-weight: bold;
+}
+
+#header .btn:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	transition: color .4s;
+	transition: background-color .25s;
+}
+
+#header li a span:hover {
+	color: rgba(251, 248, 220, 1);
+}
+
+#header #active {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+}
+
+#active:hover {
+	cursor: default;
+	color: rgba(251, 248, 220, 1)
+}
+
+
+
+
+/*  Main Section  */
+.main {
+	margin-top: 100px;
+	z-index: 0;
+}
+
+.main h2 {
+	color: tomato;
+	font-family: 'Passion One', sans-serif;
+}
+
+.main .row {
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Where I'm from */
+.main #where-im-from .small {
+	max-height: 200px;
+    image-orientation: from-image;
+	width: 100%;
+	height: auto;
+}
+.main #where-im-from #formal {
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.main #where-im-from .med {
+	width: 250px;
+	margin-left: 20px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Went to Uni */
+.main #went-to-uni {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.main #went-to-uni #img-showcase {
+	margin: 0;
+	padding: 0;
+}
+.main #went-to-uni .small {
+    image-orientation: from-image;
+	width: 100%;
+    max-width:110px;
+    max-height:120px;
+    height:auto;
+}
+#went-to-uni #suki, #went-to-uni #grad-ball, #went-to-uni #whole-crew, #went-to-uni #rowing-1, #went-to-uni #boys {
+	margin-top: 30px;
+}
+
+.main #went-to-uni .sub-container {
+	margin-top: 20px;
+}
+.main #went-to-uni #suki {
+	width: 160%;
+	margin-left: -20px;
+	height: auto;
+}
+
+
+.main #went-to-uni #grad-ball, .main #went-to-uni #suki {
+	width: auto;
+	height: 75px;
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Became a Teacher */
+.main #became-a-teacher .small, .main #became-a-teacher video {
+    max-width:150px;
+    max-height:150px;
+    width:auto;
+    height:auto;
+    image-orientation: from-image;
+	width: auto;
+}
+#lines, #desk {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Learned to code */
+.main #learned-to-code .small {
+    image-orientation: from-image;
+	width: auto;
+	padding: 0;
+    max-width:150px;
+    max-height:150px;
+    width:auto;
+    height:auto;
+    margin: 15px;
+}
+.main #learned-to-code h3 {
+	color: tomato;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Passion One', sans-serif;
+}
+#learned-to-code #sql {
+	margin-left: -10px;
+	margin-top: 30px;
+}	
+
+.main #learned-to-code .sub-container p {
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Have fun */
+.main #have-fun .small {
+	max-height: 150px;
+	max-width: 170px;
+	height: auto;
+	width: auto;
+    image-orientation: from-image;
+	width: auto;
+}
+.main #have-fun #small {
+	max-height: 150px;
+	max-width: 170px;
+	height: auto;
+	width: auto;
+    image-orientation: from-image;
+	width: auto;
+}
+.main #have-fun col-md-6 {
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Final  */
+.welc {
+	text-align: center;
+	margin-top: 60px;
+	color: tomato;
+	font-family: 'Passion One', sans-serif;
+	margin-bottom: 40px;
+}
+
+.welc2 {
+	text-align: center;
+	color: tomato;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+}
+
+.welc2 a, #return {
+	border: 1px solid tomato;
+	padding: 10px 20px;
+	margin: 0 160px; 
+	border-radius: 50px;
+	color: tomato;
+	text-decoration: none;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}
+
+welc2 a:hover, #return:hover {
+	color: rgba(251, 248, 220, 1);
+	background-color: tomato;
+	text-decoration: none;
+	text-align: center;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}
+
+#final p a {
+	max-width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#final #wider {
+	max-width: 300px;
+}
+
+
